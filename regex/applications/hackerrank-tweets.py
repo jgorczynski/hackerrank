@@ -1,0 +1,1 @@
+print(sum('HACKERRANK' in input().upper() for i in range(int(input()))))

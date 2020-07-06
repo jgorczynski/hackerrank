@@ -1,0 +1,2 @@
+import re, sys
+print(';'.join(sorted(set(re.findall('<(\w+)', sys.stdin.read())))))
